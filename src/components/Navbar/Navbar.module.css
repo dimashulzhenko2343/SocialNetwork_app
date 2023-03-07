@@ -1,0 +1,21 @@
+.nav {
+  grid-area: nav;
+  background-color: brown;
+}
+
+.item {
+  padding: 5px 0px 0px 5px;
+}
+
+.item.activ {
+  color: gold;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.link:hover {
+  color: rgb(183, 183, 183);
+}

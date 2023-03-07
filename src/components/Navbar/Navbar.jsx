@@ -1,11 +1,12 @@
 import React from "react";
 import s from './Navbar.module.css'
 
+
 const Navbar = () => {
   return (
     <nav className={s.nav}>
     <div className={s.item}>
-      <a href="/" className={s.link}>Profile</a>
+      <a href="/" className={`${s.item} ${s.activ}`}>Profile</a>
     </div>
     <div className={s.item}>
       <a href="/" className={s.link}>Messages</a>
