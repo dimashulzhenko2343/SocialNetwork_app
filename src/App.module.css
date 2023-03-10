@@ -1,3 +1,7 @@
+a {
+ text-decoration: none;
+}
+
 .app_wrapper {
   margin: 0 auto;
   display: grid;
@@ -11,6 +15,8 @@
   grid-template-columns: 2fr 10fr;
 }
 
-a {
- text-decoration: none;
+.app_wrapper_content {
+  grid-area: content;
+  background-color: chocolate;
 }
+
