@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
 import s from "./Dialogs.module.css";
 
-const Users = [
+const users = [
  {name: 'Dimych', id: 'dima'},
  {name: 'Andrey', id: 'andrey'},
  {name: 'Sveta', id: 'sveta'},
@@ -32,12 +32,12 @@ const Dialogs = (props) => {
   return (
     <div className={s.dialogs}>
       <div className={s.dialogs_item}>
-        <DialogItem id = {Users[0].id} name = {Users[0].name}/>
-        <DialogItem id = {Users[1].id} name = {Users[1].name}/>
-        <DialogItem id = {Users[2].id} name = {Users[2].name}/>
-        <DialogItem id = {Users[3].id} name = {Users[3].name}/>
-        <DialogItem id = {Users[4].id} name = {Users[4].name}/>
-        <DialogItem id = {Users[5].id} name = {Users[5].name}/>
+        <DialogItem id = {users[0].id} name = {users[0].name}/>
+        <DialogItem id = {users[1].id} name = {users[1].name}/>
+        <DialogItem id = {users[2].id} name = {users[2].name}/>
+        <DialogItem id = {users[3].id} name = {users[3].name}/>
+        <DialogItem id = {users[4].id} name = {users[4].name}/>
+        <DialogItem id = {users[5].id} name = {users[5].name}/>
       </div>
       <div className={s.messages}>
         {/* <Routes>
