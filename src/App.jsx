@@ -8,17 +8,17 @@ import Profile from "./components/Profile/Profile";
 
 function App() {
   return (
-      <div className={s.app_wrapper}>
-        <Header />
-        <Navbar />
-        <div className={s.app_wrapper_content}>
-          <Routes>
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/dialogs" element={<Dialogs />} />
-          </Routes>
-        </div>
+    <div className={s.app_wrapper}>
+      <Header />
+      <Navbar />
+      <div className={s.app_wrapper_content}>
+        <Routes>
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/dialogs/*" element={<Dialogs />} />
+        </Routes>
       </div>
-  )
+    </div>
+  );
 }
 
 export default App;
