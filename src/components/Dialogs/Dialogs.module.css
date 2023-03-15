@@ -1,25 +1,16 @@
+.dialogActive {
+  color: gold;
+}
+
 .dialogs {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
 
-
-    padding: 10px 0px 10px 10px;
-    color: blueviolet;    
+  padding: 10px 0px 10px 10px;
+  color: blueviolet;
 }
 
 .dialogs_item {
   margin-right: 5px;
   border-right: solid 2px black;
-}
-
-.dialog {
-
-}
-
-.messages {
-
-}
-
-.message {
-
 }
